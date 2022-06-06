@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SIDORA">
         <activity
+            android:name=".RecipientRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonorRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectRegistrationMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
